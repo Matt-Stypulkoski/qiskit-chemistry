@@ -1,4 +1,32 @@
-# Qiskit Chemistry
+# Qiskit Chemistry - Deprecated
+
+**This repository is deprecated.**  As of July 12, 2019 Qiskit Chemistry is part of Qiskit Aqua and all the contents of this
+repository are merged into the [Qiskit Aqua repository](https://github.com/Qiskit/qiskit-aqua).  This has been done to make
+Qiskit Chemistry consistent with the other Aqua applications: Qiskit AI, Qiskit Finance, and Qiskit Optimization, which are
+all included in the Qiskit Aqua repository.
+
+If you installed Qiskit Aqua and Qiskit Chemistry as part of the
+[Qiskit 0.10 PyPi installation](https://pypi.org/project/qiskit/), no changes are necessary for now.
+
+If you installed Qiskit Chemistry from source, and you want to update your installation to keep up with the latest research
+enhancements, you must follow these steps:
+
+1. Uninstall Qiskit Chemistry from your Qiskit Python environment: `pip uninstall qiskit-chemistry`
+2. Pull the latest Qiskit Aqua from master -- go to the directory in your file system where the Qiskit Aqua repository is
+cloned, and issue the following command: `git pull`
+3. Uninstall Qiskit Aqua from your Qiskit Python environment: `pip uninstall qiskit-aqua`
+4. Install the new version of Qiskit Aqua from source -- go to the directory in your file system where the Qiskit Aqua 
+repository is cloned and issue the following command: ‘pip intall -e .’ (this command will install the new version of Qiskit 
+Aqua, which now includes Qiskit Chemistry, and will also update the Qiskit Aqua `pip` metadata, which is necessary because the 
+Qiskit Aqua dependencies have changed as a result of the merge)
+5. Those using the Qiskit Aqua Chemistry Graphical User Interface (GUI) from
+[Qiskit Aqua Interfaces](https://github.com/Qiskit/qiskit-aqua-interfaces) should pull the new version of Qiskit Aqua 
+Interfaces and update its PyPi installation -- this can be done by going to the directory in your file system where the Qiskit 
+Aqua Interfaces repository is cloned and then issuing the following commands:
+```
+git pull
+pip install -e .
+```
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-chemistry.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![Build Status](https://img.shields.io/travis/com/Qiskit/qiskit-chemistry/master.svg?style=popout-square)](https://travis-ci.com/Qiskit/qiskit-chemistry)[![](https://img.shields.io/github/release/Qiskit/qiskit-chemistry.svg?style=popout-square)](https://github.com/Qiskit/qiskit-chemistry/releases)[![](https://img.shields.io/pypi/dm/qiskit-chemistry.svg?style=popout-square)](https://pypi.org/project/qiskit-chemistry/)
 
