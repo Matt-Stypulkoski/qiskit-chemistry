@@ -6,7 +6,8 @@ Qiskit Chemistry consistent with the other Aqua applications: Qiskit AI, Qiskit 
 all included in the Qiskit Aqua repository.
 
 If you installed Qiskit Aqua and Qiskit Chemistry as part of the
-[Qiskit 0.10 PyPi installation](https://pypi.org/project/qiskit/), no changes are necessary for now.
+[Qiskit 0.10 PyPi installation](https://pypi.org/project/qiskit/), you can skip Points 1. through 4. below, and go straigjt to
+Point 5.
 
 If you installed Qiskit Chemistry from source, and you want to update your installation to keep up with the latest research
 enhancements, you must follow these steps:
@@ -19,8 +20,8 @@ cloned, and issue the following command: `git pull`
 repository is cloned and issue the following command: ‘pip intall -e .’ (this command will install the new version of Qiskit 
 Aqua, which now includes Qiskit Chemistry, and will also update the Qiskit Aqua `pip` metadata, which is necessary because the 
 Qiskit Aqua dependencies have changed as a result of the merge)
-5. Those using the Qiskit Aqua Chemistry Graphical User Interface (GUI) from
-[Qiskit Aqua Interfaces](https://github.com/Qiskit/qiskit-aqua-interfaces) should pull the new version of Qiskit Aqua 
+5. If you had previously installed Qiskit Aqua Chemistry Graphical User Interface (GUI) from
+[Qiskit Aqua Interfaces](https://github.com/Qiskit/qiskit-aqua-interfaces), you should pull the new version of Qiskit Aqua 
 Interfaces and update its PyPi installation -- this can be done by going to the directory in your file system where the Qiskit 
 Aqua Interfaces repository is cloned and then issuing the following commands:
 ```
