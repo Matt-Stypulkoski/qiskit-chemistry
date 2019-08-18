@@ -31,7 +31,7 @@ pip install -e .
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit-chemistry.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![Build Status](https://img.shields.io/travis/com/Qiskit/qiskit-chemistry/master.svg?style=popout-square)](https://travis-ci.com/Qiskit/qiskit-chemistry)[![](https://img.shields.io/github/release/Qiskit/qiskit-chemistry.svg?style=popout-square)](https://github.com/Qiskit/qiskit-chemistry/releases)[![](https://img.shields.io/pypi/dm/qiskit-chemistry.svg?style=popout-square)](https://pypi.org/project/qiskit-chemistry/)
 
-**Qiskit** is an open-source framework for working with noisy intermediate-scale quantum (NISQ) computers at the level of pulses, circuits, algorithms, and applications.
+**Qiskit** is an open-source framework for working with noisy quantum computers at the level of pulses, circuits, and algorithms.
 
 Qiskit is made up elements that work together to enable quantum computing. The element **Aqua**
 provides a library of cross-domain algorithms upon which domain-specific applications can be
